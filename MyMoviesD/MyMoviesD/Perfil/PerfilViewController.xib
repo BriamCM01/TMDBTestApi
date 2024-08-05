@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Swift-Bold.ttf">
+            <string>Swift-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PerfilViewController" customModule="MyMoviesD" customModuleProvider="target">
+            <connections>
+                <outlet property="btnUpdate" destination="qfb-nX-2Kh" id="eF3-du-Tu1"/>
+                <outlet property="imgUserName" destination="jRt-Jd-dpr" id="rHi-rh-Qbw"/>
+                <outlet property="txtUserName" destination="9e2-cd-GS6" id="Kng-Uu-5gM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jRt-Jd-dpr">
+                    <rect key="frame" x="136.66666666666666" y="109" width="119.99999999999997" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="vSp-6r-dtW"/>
+                        <constraint firstAttribute="height" constant="120" id="xJy-qG-msa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Esperamos que estes bien: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ox8-23-XIB">
+                    <rect key="frame" x="15" y="254" width="363" height="23"/>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BriamCM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9e2-cd-GS6">
+                    <rect key="frame" x="16" y="285" width="361" height="34"/>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfb-nX-2Kh">
+                    <rect key="frame" x="100" y="743" width="193" height="45"/>
+                    <color key="backgroundColor" name="appColor-900"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="hIu-66-QR1"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Actualizar">
+                        <fontDescription key="titleFontDescription" name="Swift-Bold" family="Swift" pointSize="21"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didTouchUpdate:" destination="-1" eventType="touchUpInside" id="0z1-7r-bSR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jRt-Jd-dpr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="81n-LR-OYR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qfb-nX-2Kh" secondAttribute="bottom" constant="30" id="BQv-Lh-r73"/>
+                <constraint firstItem="jRt-Jd-dpr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="Cly-mN-xLH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ox8-23-XIB" secondAttribute="trailing" constant="15" id="Ezb-JF-EXw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qfb-nX-2Kh" secondAttribute="trailing" constant="100" id="IM5-8J-kbe"/>
+                <constraint firstItem="ox8-23-XIB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="KRP-yp-Oyq"/>
+                <constraint firstItem="ox8-23-XIB" firstAttribute="top" secondItem="jRt-Jd-dpr" secondAttribute="bottom" constant="25" id="Kqw-dj-qAW"/>
+                <constraint firstItem="qfb-nX-2Kh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="Z27-Fb-hkw"/>
+                <constraint firstItem="9e2-cd-GS6" firstAttribute="top" secondItem="ox8-23-XIB" secondAttribute="bottom" constant="8" symbolic="YES" id="dLe-tP-GHz"/>
+                <constraint firstItem="9e2-cd-GS6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="uPG-KC-pBO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9e2-cd-GS6" secondAttribute="trailing" constant="16" id="ySX-sM-Wya"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="appColor-900">
+            <color red="0.0" green="0.22745098039215686" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

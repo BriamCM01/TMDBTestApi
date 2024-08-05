@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7359BA4F-537D-4C74-BB26-91752B971328"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36036140-5444-447C-8FA7-3431622E5216"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoviesD/Home/ViewModel/HomeMovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getTopRatedData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "36036140-5444-447C-8FA7-3431622E5216 - 9ed10ba4ddaedcbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyMoviesD.HomeMovieViewModel.getTopRatedData() async throws -&gt; Swift.Array&lt;MyMoviesD.UpcomingEntity&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/ViewModel/HomeMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "4228">
+               </Location>
+               <Location
+                  uuid = "36036140-5444-447C-8FA7-3431622E5216 - 9ed10ba4ddaedcbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyMoviesD.HomeMovieViewModel.getTopRatedData() async throws -&gt; Swift.Array&lt;MyMoviesD.UpcomingEntity&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/ViewModel/HomeMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "4144">
+               </Location>
+               <Location
+                  uuid = "36036140-5444-447C-8FA7-3431622E5216 - 9ed10ba4ddaedd01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyMoviesD.HomeMovieViewModel.getTopRatedData() async throws -&gt; Swift.Array&lt;MyMoviesD.UpcomingEntity&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/ViewModel/HomeMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "4100">
+               </Location>
+               <Location
+                  uuid = "36036140-5444-447C-8FA7-3431622E5216 - 13efd421bae1ca2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyMoviesD.HomeMovieViewModel.getTopRatedData(page: Swift.String) async throws -&gt; Swift.Array&lt;MyMoviesD.UpcomingEntity&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/ViewModel/HomeMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "4332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D007285-776F-48FF-AF96-3B67E17AABCC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoviesD/Resources/Utils/String+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "toImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D007285-776F-48FF-AF96-3B67E17AABCC - 81a034d35ad769c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.toImage() -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Resources/Utils/String+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "4D007285-776F-48FF-AF96-3B67E17AABCC - 81a034d35ad769c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.toImage() -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Resources/Utils/String+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75BB6846-7C21-4EF2-8AF6-9BA874ABCBE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoviesD/Home/View/HomeMoviesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75BB6846-7C21-4EF2-8AF6-9BA874ABCBE6 - dc8616e52a042fba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMoviesD.HomeMoviesViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/View/HomeMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "75BB6846-7C21-4EF2-8AF6-9BA874ABCBE6 - 36edf7c6365699eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async throws -&gt; () in MyMoviesD.HomeMoviesViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/View/HomeMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "75BB6846-7C21-4EF2-8AF6-9BA874ABCBE6 - a999c8c236c04ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in MyMoviesD.HomeMoviesViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/View/HomeMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "75BB6846-7C21-4EF2-8AF6-9BA874ABCBE6 - dc8616e52a042fba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMoviesD.HomeMoviesViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MyMoviesD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briamcano/Documents/Pruebas%20SPM/MyMoviesD/MyMoviesD/Home/View/HomeMoviesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ReusableDetailViewController.viewDidLoad():ReusableDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.detailMovie">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

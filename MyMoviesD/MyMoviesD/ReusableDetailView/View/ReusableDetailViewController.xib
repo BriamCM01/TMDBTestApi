@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Swift-Bold.ttf">
+            <string>Swift-Bold</string>
+        </array>
+        <array key="Swift-ExtraBold.ttf">
+            <string>Swift-ExtraBold</string>
+        </array>
+        <array key="Swift.ttf">
+            <string>Swift</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReusableDetailViewController" customModule="MyMoviesD" customModuleProvider="target">
+            <connections>
+                <outlet property="imgMovie" destination="hw8-cz-fEM" id="Ojv-0X-1Lz"/>
+                <outlet property="lblDate" destination="49P-W5-clm" id="Mn9-c7-ifz"/>
+                <outlet property="lblLink" destination="8m5-pw-VAY" id="7hG-87-FGr"/>
+                <outlet property="lblTitle" destination="nhi-mC-6M4" id="070-BR-Ky0"/>
+                <outlet property="textViewDescription" destination="mKq-lo-Taf" id="5IG-ne-esF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SDWebImageHighLevelDiagram.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hw8-cz-fEM">
+                    <rect key="frame" x="120" y="69" width="153" height="239"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="239" id="j6f-rN-njF"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venom 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhi-mC-6M4">
+                    <rect key="frame" x="15" y="318" width="363" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6K7-fs-Sjg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Swift-ExtraBold" family="Swift" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de lanzamiento: 2 de agosto del 2024" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49P-W5-clm">
+                    <rect key="frame" x="15" y="800" width="364" height="18"/>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="mKq-lo-Taf">
+                    <rect key="frame" x="15" y="383" width="363" height="409"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" name="Swift" family="Swift" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mas información..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8m5-pw-VAY">
+                    <rect key="frame" x="100" y="730" width="193" height="20"/>
+                    <fontDescription key="fontDescription" name="Swift" family="Swift" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="appColor-600"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8m5-pw-VAY" secondAttribute="trailing" constant="100" id="CSF-sb-WjF"/>
+                <constraint firstItem="49P-W5-clm" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Kc5-Ms-Ho4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="49P-W5-clm" secondAttribute="trailing" constant="14" id="PoC-vI-44r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hw8-cz-fEM" secondAttribute="trailing" constant="120" id="TDP-W9-VOE"/>
+                <constraint firstItem="mKq-lo-Taf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="WdE-nW-ldK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nhi-mC-6M4" secondAttribute="trailing" constant="15" id="X3K-gt-ute"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mKq-lo-Taf" secondAttribute="trailing" constant="15" id="YP2-Af-mAU"/>
+                <constraint firstItem="49P-W5-clm" firstAttribute="top" secondItem="8m5-pw-VAY" secondAttribute="bottom" constant="50" id="aU3-b2-OXu"/>
+                <constraint firstItem="mKq-lo-Taf" firstAttribute="top" secondItem="nhi-mC-6M4" secondAttribute="bottom" constant="15" id="dOg-z4-KFi"/>
+                <constraint firstItem="hw8-cz-fEM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="120" id="ecK-Ni-UiN"/>
+                <constraint firstItem="hw8-cz-fEM" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="ipq-4a-zwB"/>
+                <constraint firstItem="49P-W5-clm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="l6W-Zp-h34"/>
+                <constraint firstItem="49P-W5-clm" firstAttribute="top" secondItem="mKq-lo-Taf" secondAttribute="bottom" constant="8" symbolic="YES" id="lYQ-wd-LgL"/>
+                <constraint firstItem="nhi-mC-6M4" firstAttribute="top" secondItem="hw8-cz-fEM" secondAttribute="bottom" constant="10" id="p9a-Sj-Ifx"/>
+                <constraint firstItem="nhi-mC-6M4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="s5e-NZ-rP5"/>
+                <constraint firstItem="8m5-pw-VAY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="xA9-sy-Wyw"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SDWebImageHighLevelDiagram.jpeg" width="1024" height="768"/>
+        <namedColor name="appColor-600">
+            <color red="0.50196078431372548" green="0.61568627450980395" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

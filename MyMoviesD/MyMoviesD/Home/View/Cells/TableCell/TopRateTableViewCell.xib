@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Swift-ExtraBold.ttf">
+            <string>Swift-ExtraBold</string>
+        </array>
+        <array key="Swift.ttf">
+            <string>Swift</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="TopRateTableViewCell" customModule="MyMoviesD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="posterVenomExample" translatesAutoresizingMaskIntoConstraints="NO" id="IJO-yg-Tdw">
+                        <rect key="frame" x="14" y="7" width="82" height="106"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="82" id="IGY-R2-Zuo"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venom 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUC-Zo-WLb">
+                        <rect key="frame" x="104" y="7" width="231" height="20"/>
+                        <fontDescription key="fontDescription" name="Swift-ExtraBold" family="Swift" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="XWz-Wt-5z1">
+                        <rect key="frame" x="104" y="35" width="231" height="64"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" name="Swift" family="Swift" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eu-h2-BDb">
+                        <rect key="frame" x="106" y="103" width="229" height="17"/>
+                        <fontDescription key="fontDescription" name="Swift" family="Swift" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kUC-Zo-WLb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="Fmw-5f-b2D"/>
+                    <constraint firstAttribute="trailing" secondItem="kUC-Zo-WLb" secondAttribute="trailing" constant="15" id="Hdg-yU-5Ib"/>
+                    <constraint firstAttribute="trailing" secondItem="1Eu-h2-BDb" secondAttribute="trailing" constant="15" id="Kh2-Me-36P"/>
+                    <constraint firstItem="1Eu-h2-BDb" firstAttribute="top" secondItem="XWz-Wt-5z1" secondAttribute="bottom" constant="4" id="NfN-gg-QWt"/>
+                    <constraint firstItem="XWz-Wt-5z1" firstAttribute="leading" secondItem="IJO-yg-Tdw" secondAttribute="trailing" constant="8" symbolic="YES" id="OMh-lU-Hhz"/>
+                    <constraint firstItem="IJO-yg-Tdw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="WSG-mQ-UfH"/>
+                    <constraint firstItem="1Eu-h2-BDb" firstAttribute="leading" secondItem="IJO-yg-Tdw" secondAttribute="trailing" constant="10" id="XhX-n8-D1y"/>
+                    <constraint firstAttribute="bottom" secondItem="IJO-yg-Tdw" secondAttribute="bottom" constant="7" id="YN8-Yt-gSv"/>
+                    <constraint firstItem="XWz-Wt-5z1" firstAttribute="top" secondItem="kUC-Zo-WLb" secondAttribute="bottom" constant="8" symbolic="YES" id="cJo-lf-Kge"/>
+                    <constraint firstItem="IJO-yg-Tdw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="cNO-tg-wMT"/>
+                    <constraint firstAttribute="bottom" secondItem="1Eu-h2-BDb" secondAttribute="bottom" id="cTj-jz-Osf"/>
+                    <constraint firstAttribute="trailing" secondItem="XWz-Wt-5z1" secondAttribute="trailing" constant="15" id="mQP-h8-sZO"/>
+                    <constraint firstItem="kUC-Zo-WLb" firstAttribute="leading" secondItem="IJO-yg-Tdw" secondAttribute="trailing" constant="8" symbolic="YES" id="y5h-BT-gMI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imgPoster" destination="IJO-yg-Tdw" id="Qx3-w3-4pL"/>
+                <outlet property="lblDate" destination="1Eu-h2-BDb" id="NlO-dg-gAZ"/>
+                <outlet property="lblTitle" destination="kUC-Zo-WLb" id="PUM-GL-Lvi"/>
+                <outlet property="textViewOverview" destination="XWz-Wt-5z1" id="naU-Rh-yNC"/>
+            </connections>
+            <point key="canvasLocation" x="160.30534351145039" y="46.478873239436624"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="posterVenomExample" width="454" height="679"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

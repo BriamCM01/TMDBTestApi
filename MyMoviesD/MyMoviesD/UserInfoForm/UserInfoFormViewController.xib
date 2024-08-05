@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Swift-Bold.ttf">
+            <string>Swift-Bold</string>
+        </array>
+        <array key="Swift-ExtraBold.ttf">
+            <string>Swift-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserInfoFormViewController" customModule="MyMoviesD" customModuleProvider="target">
+            <connections>
+                <outlet property="btnContinue" destination="XZQ-Xz-ckE" id="Hlw-va-lyL"/>
+                <outlet property="txtFavoriteMovie" destination="pjA-3M-nsh" id="WGb-Cl-Xhk"/>
+                <outlet property="txtuserName" destination="NZ7-mn-a0z" id="90P-g9-obV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImageLogin" translatesAutoresizingMaskIntoConstraints="NO" id="j6N-bC-4jM">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formulario de Usario" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="220-Vp-q3d">
+                    <rect key="frame" x="15" y="79" width="363" height="25"/>
+                    <fontDescription key="fontDescription" name="Swift-ExtraBold" family="Swift" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5g-76-sri">
+                    <rect key="frame" x="16" y="172" width="159.33333333333334" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Vmf-r4-8AO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre de usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NZ7-mn-a0z">
+                    <rect key="frame" x="16" y="207" width="361" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="XK3-eV-yrv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pelicula Favorita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgD-ut-DBi">
+                    <rect key="frame" x="15" y="261" width="363" height="21"/>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pelicula favorita" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pjA-3M-nsh">
+                    <rect key="frame" x="16" y="290" width="361" height="34"/>
+                    <fontDescription key="fontDescription" name="Swift-Bold" family="Swift" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZQ-Xz-ckE">
+                    <rect key="frame" x="100" y="708" width="193" height="40"/>
+                    <color key="backgroundColor" name="appColor-900"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="06c-fa-vIJ"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Continuar">
+                        <fontDescription key="titleFontDescription" name="Swift-Bold" family="Swift" pointSize="17"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didTouchContinue:" destination="-1" eventType="touchUpInside" id="W3r-xn-1El"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="j6N-bC-4jM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3QP-0E-Rsn"/>
+                <constraint firstItem="NZ7-mn-a0z" firstAttribute="top" secondItem="c5g-76-sri" secondAttribute="bottom" constant="15" id="6Xe-55-R7j"/>
+                <constraint firstItem="c5g-76-sri" firstAttribute="top" secondItem="220-Vp-q3d" secondAttribute="bottom" constant="68" id="6ve-Lu-OBf"/>
+                <constraint firstItem="JgD-ut-DBi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="Cz4-vb-BWc"/>
+                <constraint firstItem="j6N-bC-4jM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GbT-eM-9KM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pjA-3M-nsh" secondAttribute="trailing" constant="16" id="Kdv-yr-3JW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="220-Vp-q3d" secondAttribute="trailing" constant="15" id="KiR-Q5-9eu"/>
+                <constraint firstItem="JgD-ut-DBi" firstAttribute="top" secondItem="NZ7-mn-a0z" secondAttribute="bottom" constant="20" id="Lx7-9d-J3Y"/>
+                <constraint firstItem="j6N-bC-4jM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Ztn-Un-pNa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JgD-ut-DBi" secondAttribute="trailing" constant="15" id="b6X-1I-jH1"/>
+                <constraint firstItem="pjA-3M-nsh" firstAttribute="top" secondItem="JgD-ut-DBi" secondAttribute="bottom" constant="8" symbolic="YES" id="cFz-FD-NkW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NZ7-mn-a0z" secondAttribute="trailing" constant="16" id="dlo-1f-34O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XZQ-Xz-ckE" secondAttribute="trailing" constant="100" id="fHc-0j-Nry"/>
+                <constraint firstItem="c5g-76-sri" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="irW-JZ-FBh"/>
+                <constraint firstItem="XZQ-Xz-ckE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="mqZ-fn-0om"/>
+                <constraint firstItem="220-Vp-q3d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="nvW-Lu-cAX"/>
+                <constraint firstAttribute="bottom" secondItem="j6N-bC-4jM" secondAttribute="bottom" id="qBa-aH-X8W"/>
+                <constraint firstItem="NZ7-mn-a0z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="qcq-VM-bQx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XZQ-Xz-ckE" secondAttribute="bottom" constant="70" id="uA4-YX-biy"/>
+                <constraint firstItem="pjA-3M-nsh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="wzP-eX-PyI"/>
+                <constraint firstItem="220-Vp-q3d" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="ynk-QM-6ok"/>
+            </constraints>
+            <point key="canvasLocation" x="-11.450381679389313" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgroundImageLogin" width="640" height="856"/>
+        <namedColor name="appColor-900">
+            <color red="0.0" green="0.22745098039215686" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
